@@ -102,13 +102,13 @@ transform: scale(1.1);
 .email{
     display: flex;
 }
-.phonenumber{
+.phone-number{
     display: flex;
     font-size: 24px;
     font-style: bold;
     color:#1B1C21 ;
     margin-bottom: 5px;
-    font-family: 'TTLakes-Regular', serif;
+    font-family: 'TTLakes-ExtraBold', serif;
 }
 .lang{
     font-size: 15px;
