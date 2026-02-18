@@ -1,0 +1,38 @@
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 320px;
+    position: fixed;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 120px;
+}
+
+.burger-cps-icon{
+    margin-left: 10px;
+}
+ul{
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+    list-style: none;
+    padding: 15px;
+}
+
+.footage{
+   display: flex;
+   flex-direction: column;
+  margin-top: 200px;
+}
+
+.email{
+    
+}
