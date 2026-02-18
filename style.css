@@ -1,22 +1,44 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     width: 320px;
+    height: 1024px;
     position: fixed;
+    font-family: 'TTLakes-Regular', serif;
 }
 
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-   gap: 120px;
+   gap: 128px;
+   margin-top: 15px;
+}
+.search{
+    cursor: pointer;
 }
 
 .burger-cps-icon{
     margin-left: 10px;
+    cursor: pointer;
+}
+#special{
+   box-sizing: border-box;
+    border-left:4px solid #41F6D7;
+    height: 32px;
+    color:#7E7E82;
+}
+#special:hover{
+    transform: scale(1.1);
+    color: blue;
 }
 ul{
     display:flex;
@@ -25,11 +47,27 @@ ul{
     gap: 30px;
     list-style: none;
     padding: 15px;
+    font-size: 21px;
+    cursor: pointer;
 }
 
 .footage{
    display: flex;
    flex-direction: column;
-  margin-top: 200px;
-}
+  margin-top: 150px;
 
+}
+.icons{
+    margin: 10px;
+    cursor: pointer;
+}
+.contacts{
+    padding: 10px;
+}
+.phonenumber{
+    font-size: 24px;
+    font-style: bold;
+    color:#1B1C21 ;
+    margin-bottom: 20px;
+    font-family: 'TTLakes-Regular', serif;
+}
