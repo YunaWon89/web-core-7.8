@@ -1,9 +1,35 @@
 
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url("./FONT/TTLakes-Regular.eot");
+  src:
+    url("./FONT/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./FONT/TTLakes-Regular.woff") format("woff"),
+    url("./FONT/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url("./FONT/TTLakes-Bold.eot");
+  src:
+    url("./FONT/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./FONT/TTLakes-Bold.woff") format("woff"),
+    url("./FONT/TTLakes-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'TT Lakes Regular', sans-serif;
+}
+
 .container{
     display: flex;
     justify-content: flex-start;
@@ -12,7 +38,7 @@
     width: 320px;
     height: 1024px;
     position: fixed;
-    font-family: 'TTLakes-Regular', serif;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);;
 }
 
 .header{
@@ -24,15 +50,23 @@
  
 }
 .search{
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 
+
 .burger-cps-icon{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 15px;
     margin-left: 10px;
     cursor: pointer;
+}
+
+.burger-cps-icon:first-child{
+    width: 40px;
+    height: 40px;
 }
 #special{
     display: flex;
@@ -108,7 +142,7 @@ transform: scale(1.1);
     font-style: bold;
     color:#1B1C21 ;
     margin-bottom: 5px;
-    font-family: 'TTLakes-ExtraBold', serif;
+    font-family: 'TT Lakes Bold', sans-serif;
 }
 .lang{
     font-size: 15px;
